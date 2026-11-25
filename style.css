@@ -1,0 +1,5 @@
+:root{--bg:#fbf7f0;--fg:#1d1a16;--mute:#6b6256;--acc:#b5651d}
+@media (prefers-color-scheme:dark){:root{--bg:#16130f;--fg:#efe7da;--mute:#a69b8b;--acc:#e09a52}}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,serif;margin:0;padding:32px 16px}
+main{max-width:680px;margin:auto}h1,h2{font-family:system-ui,sans-serif;line-height:1.2}
+a{color:var(--acc)}small,.mute{color:var(--mute)}img{border-radius:50%}
